@@ -1,0 +1,33 @@
+.login
+{
+	border: 1px solid #000;
+	height: 350px;
+	margin-top: 80px;
+	background-color: #d9edf7;
+}
+.input
+{
+	margin-top: 20px;
+}
+.center
+{
+	align:center;
+}
+.btn-primary
+{
+	width:80px;
+}
+h1
+{
+	font-size: 65px;
+	color: #286090;
+}
+input
+{
+	text-align:center;
+}
+.center
+{
+	text-align:center;
+}
+
