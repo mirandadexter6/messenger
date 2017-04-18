@@ -12,19 +12,27 @@ class Login extends CI_Controller
 	
 	public function index()
 	{
-		$result=$this->loginmodel->getnewsdata(2);
-
-		$data['newsdata']=$result;
 		$data['getalldata']=$this->loginmodel->getall();
-		
-		$this->load->view('templates/header');
+		$this->load->view('templates/header',$data);
 		$this->load->view('login/login',$data);
 		$this->load->view('templates/footer');
+		
 	}
-	
-	
-	
-	
-	
+	public function performlogin()
+	{
+		$this->loginmodel->login();
+	}
+	public function insert()
+	{
+		$this->loginmodel->insert();
+	}
+	public function delete()
+	{
+		$this->loginmodel->delete();
+	}
+	public function logout()
+	{
+		$this->loginmodel->logout();
+	}
 	
 }

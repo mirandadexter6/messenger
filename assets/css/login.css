@@ -1,33 +1,102 @@
-.login
-{
-	border: 1px solid #000;
-	height: 350px;
-	margin-top: 80px;
-	background-color: #d9edf7;
-}
-.input
-{
-	margin-top: 20px;
-}
-.center
-{
-	align:center;
-}
-.btn-primary
-{
-	width:80px;
-}
-h1
-{
-	font-size: 65px;
-	color: #286090;
-}
-input
-{
-	text-align:center;
-}
-.center
-{
-	text-align:center;
-}
+	<style type="text/css">
+			body, html {
+			    height: 100%;
+			    background-repeat: no-repeat;
+			}
+			.card-container.card {
+			    max-width: 350px;
+			    padding: 40px 40px;
+			}
+			.postdiv-container.postdiv {
+			    
+			}
+			
+			
+			.btn {
+			    font-weight: 700;
+			    height: 36px;
+			    -moz-user-select: none;
+			    -webkit-user-select: none;
+			    user-select: none;
+			    cursor: default;
+			}
+			.card {
+			    background-color: rgba(231, 231, 231, 1);
+			    padding: 20px 25px 30px;
+			    margin: 0 auto 25px;
+			    margin-top: 20px;
+			    /* shadows and rounded borders */
+			    -moz-border-radius: 2px;
+			    -webkit-border-radius: 2px;
+			    border-radius: 2px;
+			    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+			    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+			    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+			}
+			.postdiv {
+			    background-color: #F7F7F7;
+			    padding: 20px 25px 30px;
+			    margin: 0 auto 25px;
+			    margin-top: 20px;
+			    /* shadows and rounded borders */
+			    -moz-border-radius: 2px;
+			    -webkit-border-radius: 2px;
+			    border-radius: 2px;
+			    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+			    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+			    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+			}
+			.profile-img-card {
+			    width: 100px;
+			    height: 90px;
+			}
+			.profile-img-cards {
+			    width: 96px;
+			    height: 96px;
+			    margin: 0 auto 10px;
+			    display: block;
+			    -moz-border-radius: 50%;
+			    -webkit-border-radius: 50%;
+			    border-radius: 50%;
+			}
+			
+			.reauth-email {
+			    display: block;
+			    color: #404040;
+			    line-height: 2;
+			    margin-bottom: 10px;
+			    font-size: 14px;
+			    text-align: center;
+			    overflow: hidden;
+			    text-overflow: ellipsis;
+			    white-space: nowrap;
+			    -moz-box-sizing: border-box;
+			    -webkit-box-sizing: border-box;
+			    box-sizing: border-box;
+			}
+			.btn.btn-signin {
+			    /*background-color: #4d90fe; */
+			    background-color:rgba(51, 122, 183, 1);
+			    padding: 0px;
+			    font-weight: 700;
+			    font-size: 14px;
+			    height: 36px;
+			    -moz-border-radius: 3px;
+			    -webkit-border-radius: 3px;
+			}
+			.nab {
+			background: #183546;
+			}
+			.username {
+			color:#365899;
+			font-weight:bold;
+			}
+			.link{
+			color:white;
+			font-weight:bold;
+			}
+		
 
+
+			
+			</style>

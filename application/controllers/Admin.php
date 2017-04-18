@@ -15,18 +15,9 @@ class Dashboard extends CI_Controller
 	{
 		$data['getalldata']=$this->loginmodel->getall();
 		$this->load->view('templates/header_login');
-		$this->load->view('dashboard/dashboard',$data);
-		$this->load->view('templates/footer');
-	}
-	
-	public function anotherpage()
-	{
-	
-		$data['getalldata']=$this->loginmodel->getall();
-		$this->load->view('templates/header_login');
 		$this->load->view('dashboard/anotherpage',$data);
 		$this->load->view('templates/footer');
-
+		
 	}
 	
 	
